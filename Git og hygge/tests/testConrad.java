@@ -11,6 +11,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class testConrad{
+	// Før alle tests
 	IConrad conrad;
 	@BeforeEach
 	public void before(){

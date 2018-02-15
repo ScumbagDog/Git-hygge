@@ -1,7 +1,7 @@
 package conradPakke;
 
 public class ConradFactory{
-	public static Conrad create(){
+	public static IConrad create(){
 		return new ConradV2();
 	}
 }

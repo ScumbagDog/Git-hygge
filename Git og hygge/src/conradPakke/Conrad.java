@@ -1,6 +1,6 @@
 package conradPakke;
 
-public class Conrad {
+public class Conrad implements IConrad {
 	protected boolean drinksBeer = true;
 	protected double promille = 1.5;
 
